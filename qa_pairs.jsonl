@@ -1,0 +1,10 @@
+{"id": 1, "query": "How do I authenticate with the CloudSync API?", "expected_source": "api_authentication_guide.md", "expected_answer": "OAuth"}
+{"id": 2, "query": "What should I do if my password reset email doesn't arrive?", "expected_source": "password_reset_guide.md", "expected_answer": "browser cache"}
+{"id": 3, "query": "How is my billing calculated monthly?", "expected_source": "billing_and_payments.md", "expected_answer": "usage"}
+{"id": 4, "query": "What is the SLA for enterprise accounts?", "expected_source": "sla_and_terms.md", "expected_answer": "SLA"}
+{"id": 5, "query": "How do I integrate with third-party tools?", "expected_source": "integration_guide.md", "expected_answer": "webhooks"}
+{"id": 6, "query": "What should I do when sync fails?", "expected_source": "data_sync_troubleshooting.md", "expected_answer": "sync"}
+{"id": 7, "query": "How is my data secured and encrypted?", "expected_source": "security_policy.md", "expected_answer": "encryption"}
+{"id": 8, "query": "How do I set up my account?", "expected_source": "onboarding_guide.md", "expected_answer": "setup"}
+{"id": 9, "query": "What network requirements exist?", "expected_source": "network_connectivity.md", "expected_answer": "network"}
+{"id": 10, "query": "How do I improve sync performance?", "expected_source": "performance_troubleshooting.md", "expected_answer": "performance"}

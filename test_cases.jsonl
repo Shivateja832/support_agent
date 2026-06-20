@@ -1,0 +1,60 @@
+{"id": 1, "query": "Can you provide the HTTP response and stack trace for this 500 error? The API returned error code 500: NullPointerException", "expected_persona": "technical_expert"}
+{"id": 2, "query": "I've tried every step and I'm still locked out!! This is unacceptable, fix it now!!!", "expected_persona": "frustrated_user"}
+{"id": 3, "query": "What's the business impact of the sync outage and estimated time to resolution? Our sales demo is affected.", "expected_persona": "business_exec"}
+{"id": 4, "query": "How do I rotate the OAuth client secret and where is the token expiry configured?", "expected_persona": "technical_expert"}
+{"id": 5, "query": "My account was charged incorrectly, I need a refund and this is urgent.", "expected_persona": "frustrated_user"}
+{"id": 6, "query": "What is the SLA uptime guarantee for the enterprise tier?", "expected_persona": "business_exec"}
+{"id": 7, "query": "The webhook payload is not matching the documented schema. Here is the raw JSON.", "expected_persona": "technical_expert"}
+{"id": 8, "query": "I cannot believe how broken this product is! Nothing works and your support is useless!", "expected_persona": "frustrated_user"}
+{"id": 9, "query": "How many users are affected by this outage and what is the estimated revenue impact?", "expected_persona": "business_exec"}
+{"id": 10, "query": "How do I configure TLS 1.3 and what cipher suites does your API support?", "expected_persona": "technical_expert"}
+{"id": 11, "query": "I've been waiting for hours and no one is helping me. This is absolutely terrible service.", "expected_persona": "frustrated_user"}
+{"id": 12, "query": "We need an executive summary of the incident and the corrective actions being taken.", "expected_persona": "business_exec"}
+{"id": 13, "query": "The SDK throws a NullReferenceException when calling the sync endpoint. Debug logs attached.", "expected_persona": "technical_expert"}
+{"id": 14, "query": "This is ridiculous. I have been trying to log in for days and nothing you suggested works!", "expected_persona": "frustrated_user"}
+{"id": 15, "query": "What is the ROI impact of switching to your enterprise plan for a team of 200 users?", "expected_persona": "business_exec"}
+{"id": 16, "query": "Can you explain the JWT token refresh flow and how to handle 401 vs 403 errors correctly?", "expected_persona": "technical_expert"}
+{"id": 17, "query": "I am so frustrated! My files are not syncing and I have a deadline in 2 hours!", "expected_persona": "frustrated_user"}
+{"id": 18, "query": "When will the service be restored? We have a board meeting and productivity is at zero.", "expected_persona": "business_exec"}
+{"id": 19, "query": "How do I set up HMAC signature verification for incoming webhooks in Python?", "expected_persona": "technical_expert"}
+{"id": 20, "query": "Your system deleted my files! I want a refund and I am extremely angry right now!", "expected_persona": "frustrated_user"}
+{"id": 21, "query": "What is the data retention policy and how does it affect our compliance requirements?", "expected_persona": "business_exec"}
+{"id": 22, "query": "The API rate limit is 100 requests per minute but our integration needs 500. How do we get a higher limit?", "expected_persona": "technical_expert"}
+{"id": 23, "query": "I have tried everything and NOTHING is working. This is the worst service I have ever used!", "expected_persona": "frustrated_user"}
+{"id": 24, "query": "Can you provide a cost breakdown and ROI projection for migrating our team to CloudSync?", "expected_persona": "business_exec"}
+{"id": 25, "query": "How do I implement pagination in the API response? The cursor-based pagination is not working.", "expected_persona": "technical_expert"}
+{"id": 26, "query": "I am locked out of my account again! This keeps happening and your support never fixes it!", "expected_persona": "frustrated_user"}
+{"id": 27, "query": "How does this downtime affect our SLA credits and what is the process to claim them?", "expected_persona": "business_exec"}
+{"id": 28, "query": "What is the SSL certificate pinning mechanism and how do I implement it in my mobile app?", "expected_persona": "technical_expert"}
+{"id": 29, "query": "I cannot access my data and I have a client presentation in one hour. FIX THIS NOW!", "expected_persona": "frustrated_user"}
+{"id": 30, "query": "What security certifications does CloudSync hold and how do we access the audit reports?", "expected_persona": "business_exec"}
+{"id": 31, "query": "How do I parse the error response body from the REST API? The documentation is unclear.", "expected_persona": "technical_expert"}
+{"id": 32, "query": "I have spent 3 hours on this and I still cannot get it to work. I am extremely frustrated!", "expected_persona": "frustrated_user"}
+{"id": 33, "query": "We need a dedicated account manager and a quarterly business review. Who do I contact?", "expected_persona": "business_exec"}
+{"id": 34, "query": "The DNS propagation is taking longer than expected after the IP change. What is the TTL?", "expected_persona": "technical_expert"}
+{"id": 35, "query": "This is absolute garbage. I cannot believe I am paying for this broken service!", "expected_persona": "frustrated_user"}
+{"id": 36, "query": "What is the process for our legal team to review your data processing agreements?", "expected_persona": "business_exec"}
+{"id": 37, "query": "How do I configure the SDK to retry failed requests with exponential backoff?", "expected_persona": "technical_expert"}
+{"id": 38, "query": "I am so angry. My sync has been broken for a week and nobody has fixed it!", "expected_persona": "frustrated_user"}
+{"id": 39, "query": "Can you provide a Gantt chart for the migration timeline and assign an implementation team?", "expected_persona": "business_exec"}
+{"id": 40, "query": "The OAuth2 PKCE flow is not working with my mobile client. What redirect URI format is required?", "expected_persona": "technical_expert"}
+{"id": 41, "query": "Nothing is working and I have wasted hours trying your terrible support articles!", "expected_persona": "frustrated_user"}
+{"id": 42, "query": "What KPIs should we track to measure the productivity improvement from CloudSync?", "expected_persona": "business_exec"}
+{"id": 43, "query": "How do I enable debug logging in the Node.js SDK to capture verbose API responses?", "expected_persona": "technical_expert"}
+{"id": 44, "query": "I am fed up! Every time I contact support I get the same useless advice that does not work!", "expected_persona": "frustrated_user"}
+{"id": 45, "query": "What is the total cost of ownership for a 500-user enterprise deployment over 3 years?", "expected_persona": "business_exec"}
+{"id": 46, "query": "How do I verify the HMAC SHA-256 signature of incoming webhook payloads in Java?", "expected_persona": "technical_expert"}
+{"id": 47, "query": "I am going to cancel my subscription if this does not get resolved today. This is unacceptable!", "expected_persona": "frustrated_user"}
+{"id": 48, "query": "How does CloudSync integrate with our existing SSO provider and what SAML version do you support?", "expected_persona": "business_exec"}
+{"id": 49, "query": "The curl request to the API returns a 403 even with the correct Bearer token. What am I missing?", "expected_persona": "technical_expert"}
+{"id": 50, "query": "I have been on hold for hours and nobody can fix my problem. This is completely unacceptable!", "expected_persona": "frustrated_user"}
+{"id": 51, "query": "What is the process to escalate a critical outage to your executive team?", "expected_persona": "business_exec"}
+{"id": 52, "query": "How do I configure CORS headers for the API to allow requests from my frontend domain?", "expected_persona": "technical_expert"}
+{"id": 53, "query": "My data is gone and your system is responsible! I demand immediate answers!", "expected_persona": "frustrated_user"}
+{"id": 54, "query": "We need a proof of concept environment set up before we commit to the enterprise contract.", "expected_persona": "business_exec"}
+{"id": 55, "query": "What is the maximum payload size for webhook events and how do I handle chunked delivery?", "expected_persona": "technical_expert"}
+{"id": 56, "query": "I am sick and tired of this service not working. I have lost important files because of your bugs!", "expected_persona": "frustrated_user"}
+{"id": 57, "query": "Who is our dedicated account executive and how do we schedule a product roadmap review?", "expected_persona": "business_exec"}
+{"id": 58, "query": "How do I authenticate service-to-service API calls using client credentials flow?", "expected_persona": "technical_expert"}
+{"id": 59, "query": "This is the third time this month that sync has failed! I am beyond frustrated!", "expected_persona": "frustrated_user"}
+{"id": 60, "query": "What is your disaster recovery plan and what is the RTO and RPO for our data?", "expected_persona": "business_exec"}

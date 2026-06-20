@@ -1,0 +1,187 @@
+{
+  "total": 20,
+  "correct": 20,
+  "accuracy_pct": 100.0,
+  "details": [
+    {
+      "id": 1,
+      "query": "Can you provide the HTTP response and stack trace for this 500 error? The API returned error code 500: NullPointerException",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.88,
+      "correct": true,
+      "reason": "Rule-based: {'technical_expert': 4, 'frustrated_user': 0, 'business_exec': 0}"
+    },
+    {
+      "id": 2,
+      "query": "I've tried every step and I'm still locked out!! This is unacceptable, fix it now!!!",
+      "expected": "frustrated_user",
+      "predicted": "frustrated_user",
+      "confidence": 0.81,
+      "correct": true,
+      "reason": "Rule-based: {'technical_expert': 0, 'frustrated_user': 3, 'business_exec': 0}"
+    },
+    {
+      "id": 3,
+      "query": "What's the business impact of the sync outage and estimated time to resolution? Our sales demo is affected.",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.81,
+      "correct": true,
+      "reason": "Rule-based: {'technical_expert': 0, 'frustrated_user': 0, 'business_exec': 3}"
+    },
+    {
+      "id": 4,
+      "query": "How do I rotate the OAuth client secret and where is the token expiry configured?",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 5,
+      "query": "My account was charged incorrectly, I need a refund and this is urgent.",
+      "expected": "frustrated_user",
+      "predicted": "frustrated_user",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 6,
+      "query": "Please summarize the outage impact on SLAs and provide executive summary for leadership.",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.95,
+      "correct": true,
+      "reason": "Rule-based: {'technical_expert': 0, 'frustrated_user': 0, 'business_exec': 5}"
+    },
+    {
+      "id": 7,
+      "query": "The webhook delivery returns 401 for our callbacks \u2014 what HMAC algorithm do you use and how to verify?",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 8,
+      "query": "Why does the reset link never arrive? I've done it five times and it's still not working!",
+      "expected": "frustrated_user",
+      "predicted": "frustrated_user",
+      "confidence": 0.81,
+      "correct": true,
+      "reason": "Rule-based: {'technical_expert': 0, 'frustrated_user': 3, 'business_exec': 0}"
+    },
+    {
+      "id": 9,
+      "query": "What is the expected recovery time and how will this impact our customers' workflows?",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.5518436111456614,
+      "correct": true,
+      "reason": "ML classifier: conf=0.55"
+    },
+    {
+      "id": 10,
+      "query": "Provide the exact curl command to reproduce the API call and the sample response headers.",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.5724402608099297,
+      "correct": true,
+      "reason": "ML classifier: conf=0.57"
+    },
+    {
+      "id": 11,
+      "query": "I'm fed up with these errors; this product is useless. I want to cancel my subscription.",
+      "expected": "frustrated_user",
+      "predicted": "frustrated_user",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 12,
+      "query": "Can you give a brief on regulatory compliance for data residency and GDPR considerations?",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 13,
+      "query": "The sync job logs show checksum mismatch and conflict loops \u2014 what logs should I send?",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 14,
+      "query": "This is costing us hours of downtime \u2014 what's the remedial plan and ETA?",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 15,
+      "query": "Unacceptable service \u2014 why hasn't my refund been issued? This is the worst experience.",
+      "expected": "frustrated_user",
+      "predicted": "frustrated_user",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 16,
+      "query": "How to enable verbose logging for the worker process and capture core dumps?",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    },
+    {
+      "id": 17,
+      "query": "Our leadership needs a 2-line brief on impact and next steps for the incident.",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.81,
+      "correct": true,
+      "reason": "Rule-based: {'technical_expert': 0, 'frustrated_user': 0, 'business_exec': 3}"
+    },
+    {
+      "id": 18,
+      "query": "The client library throws exceptions intermittently; attach the trace and example payloads.",
+      "expected": "technical_expert",
+      "predicted": "technical_expert",
+      "confidence": 0.560503634290693,
+      "correct": true,
+      "reason": "ML classifier: conf=0.56"
+    },
+    {
+      "id": 19,
+      "query": "I've lost critical data and need help now, this is unacceptable!",
+      "expected": "frustrated_user",
+      "predicted": "frustrated_user",
+      "confidence": 0.5584612341692867,
+      "correct": true,
+      "reason": "ML classifier: conf=0.56"
+    },
+    {
+      "id": 20,
+      "query": "What is the SLA for Enterprise customers and how do we claim credits for breach?",
+      "expected": "business_exec",
+      "predicted": "business_exec",
+      "confidence": 0.5,
+      "correct": true,
+      "reason": "Fallback (error: AttributeError)"
+    }
+  ]
+}

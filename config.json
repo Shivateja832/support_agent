@@ -1,0 +1,50 @@
+{
+  "embeddings": {
+    "model": "all-MiniLM-L6-v2",
+    "dimension": 384,
+    "cache_enabled": true
+  },
+  "retrieval": {
+    "top_k": 5,
+    "similarity_threshold": 0.35,
+    "escalation_threshold": 0.28,
+    "min_chunk_size": 50
+  },
+  "escalation": {
+    "keywords": [
+      "lawsuit", "legal action", "attorney", "lawyer", "sue", "court",
+      "fraud", "chargeback", "dispute", "regulatory", "gdpr request",
+      "data breach", "account hacked", "stolen", "refund", "cancel account"
+    ],
+    "dissatisfaction_patterns": [
+      "still not working", "didn't help", "not helpful", "i already", "not what i asked", "please read"
+    ],
+    "low_confidence_threshold": 3,
+    "max_turns_without_escalation": 6
+  },
+  "personas": {
+    "technical_expert": {
+      "keywords": ["api", "oauth", "jwt", "error code", "webhook", "debug", "ssl", "certificate", "token", "authentication", "403", "401", "log", "stack trace", "config", "sdk", "integration", "rest", "json", "xml"],
+      "weight": 1.0
+    },
+    "frustrated_user": {
+      "keywords": ["not working", "!!!!", "still", "hours", "why won't", "terrible", "awful", "horrible", "doesn't work", "broken", "useless", "angry", "furious", "disappointed", "frustrated"],
+      "weight": 1.0
+    },
+    "business_exec": {
+      "keywords": ["sla", "roi", "impact", "downtime", "timeline", "team", "operations", "business", "revenue", "customer", "critical", "urgent", "deadline", "delivery", "performance"],
+      "weight": 1.0
+    }
+  },
+  "llm": {
+    "model": "claude-sonnet-4-6",
+    "temperature": 0.7,
+    "max_tokens": 700,
+    "context_window": 8
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "support_agent.log",
+    "console_output": true
+  }
+}
